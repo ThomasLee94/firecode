@@ -1,5 +1,5 @@
-def duplicate_items(numbers: [int]): 
-    output = []
+def duplicate_items(numbers: [int]) -> [int]: 
+    output = list()
     
     numbers.sort()
 
