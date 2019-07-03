@@ -1,4 +1,4 @@
-def flip_horizontal_axis(matrix):    
+def flip_horizontal_axis(matrix: [obj]):    
     row = len(matrix) - 1
     column = len(matrix[0]) - 1
     temp = 0
